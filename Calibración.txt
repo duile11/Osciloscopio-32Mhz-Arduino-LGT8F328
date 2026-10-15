@@ -1,0 +1,15 @@
+/*
+  MODO CALIBRACION: 
+	
+mantener HOLD (D11) al encender.
+  1. Aplicar tension conocida a la entrada (5V: 1..4.5 V, 50V: 10..40 V).
+  2. UP/DOWN ajustan el factor (0.1 %; mantener = 1 %).
+  3. SELECT cambia rango 5V <-> 50V.
+  4. HOLD guarda en EEPROM y arranca el osciloscopio.
+*/
+
+/*
+  Pagina 3 = CAL FREQ: aplicar una señal de frecuencia conocida
+  (p.ej. 60 Hz de un generador o del secundario de un trafo con
+  divisor). El rango horizontal se elige solo (3..12 ciclos).
+*/
